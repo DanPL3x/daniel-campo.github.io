@@ -37,8 +37,22 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+      - name: Determine base path
+        id: base_path
+        run: |
+          REPO_NAME="${{ github.event.repository.name }}"
+          USER_NAME="${{ github.repository_owner }}"
+          # Si el repositorio es exactamente usuario.github.io, usa base '/'
+          # De lo contrario, usa el nombre del repositorio como base path
+          if [[ "$REPO_NAME" == "$USER_NAME.github.io" ]]; then
+            echo "base=/" >> $GITHUB_OUTPUT
+          else
+            echo "base=/$REPO_NAME/" >> $GITHUB_OUTPUT
+          fi
       - name: Build
         run: npm run build
+        env:
+          GITHUB_PAGES_BASE: ${{ steps.base_path.outputs.base }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
