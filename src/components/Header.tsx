@@ -5,6 +5,7 @@ import { Moon, Sun, Globe } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { portfolioConfig } from '@/config/portfolio';
 import { usePortfolioContent } from '@/hooks/use-portfolio-content';
+import { getPublicPath } from '@/lib/utils';
 
 export function Header() {
   const { theme, toggleTheme } = useTheme();
@@ -40,7 +41,7 @@ export function Header() {
             {/* Avatar */}
             <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-primary/20">
               <img 
-                src={personal.profilePhoto} 
+                src={getPublicPath(personal.profilePhoto)} 
                 alt={personal.name}
                 className="w-full h-full object-cover"
               />

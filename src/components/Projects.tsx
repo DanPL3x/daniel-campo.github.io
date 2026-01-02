@@ -3,6 +3,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Github, ExternalLink } from 'lucide-react';
 import { usePortfolioContent } from '@/hooks/use-portfolio-content';
+import { getPublicPath } from '@/lib/utils';
 
 export function Projects() {
   const { t } = useLanguage();
@@ -28,7 +29,7 @@ export function Projects() {
               >
                 <div className="relative overflow-hidden">
                   <img 
-                    src={project.image} 
+                    src={getPublicPath(project.image)} 
                     alt={project.title}
                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
