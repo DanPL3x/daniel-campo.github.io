@@ -4,16 +4,16 @@ import { PortfolioConfig } from './portfolio.example';
 const content = {
   en: {
     personal: {
-      name: "Daniel",
-      title: "Ingeniero en sistemas",
-      subtitle: "Danielch",
+      name: "Daniel Campo Chaguendo",
+      title: "Tecnologo en sistemas",
+      subtitle: "Administración de Sistemas & Soporte IT",
       greeting: "Hello, I'm",
       profilePhoto: "/profile-photo.png",
       cvUrl: "/path-to-your-cv.pdf"
     },
     about: {
-      description: "",
-      experience: "",
+      description: "Me defino como un profesional impulsado por la curiosidad y la excelencia técnica. Mi enfoque se centra en el alto rendimiento y la mejora continua, destacándome tanto en la resolución analítica de problemas como en el desarrollo de código eficiente y estructurado.",
+      experience: "Cuento con 2 años de experiencia en el área de soporte IT, desempeñándome como administrador de sistemas en Spectra Ingeniería.",
       highlights: [
         {
           icon: "Code2",
@@ -43,7 +43,7 @@ const content = {
         description: "Describe your project here. What it does, what problems it solves, and what technologies you used.",
         image: "/project-image.jpg",
         technologies: ["React", "TypeScript", "Node.js"],
-        github: "https://github.com/Daniel ch/project",
+        github: "https://github.com/DanPL3x/project",
         demo: "https://project-demo.vercel.app"
       }
       // Add more projects as needed
@@ -87,23 +87,23 @@ const content = {
       ]
     },
     meta: {
-      title: "Daniel - Ingeniero en sistemas",
-      description: "Personal portfolio of Daniel, a ingeniero en sistemas specializing in modern web technologies.",
-      keywords: ["ingeniero en sistemas", "web development", "portfolio", "react", "typescript"]
+      title: "Daniel Campo Chaguendo - Tecnologo en sistemas",
+      description: "Personal portfolio of Daniel Campo Chaguendo, a tecnologo en sistemas specializing in modern web technologies.",
+      keywords: ["tecnologo en sistemas", "web development", "portfolio", "react", "typescript"]
     }
   },
   es: {
     personal: {
-      name: "Daniel",
-      title: "Ingeniero en sistemas",
+      name: "Daniel Campo Chaguendo",
+      title: "'Tecnologo en sistemas'",
       subtitle: "Soporte IT",
       greeting: "Hola, soy",
       profilePhoto: "/profile-photo.png",
       cvUrl: "/path-to-your-cv.pdf"
     },
     about: {
-      description: "",
-      experience: "",
+      description: "Me defino como un profesional impulsado por la curiosidad y la excelencia técnica. Mi enfoque se centra en el alto rendimiento y la mejora continua, destacándome tanto en la resolución analítica de problemas como en el desarrollo de código eficiente y estructurado.",
+      experience: "2 años",
       highlights: [
         {
           icon: "Code2",
@@ -133,7 +133,7 @@ const content = {
         description: "Describe tu proyecto aquí. Qué hace, qué problemas resuelve y qué tecnologías usaste.",
         image: "/project-image.jpg",
         technologies: ["React", "TypeScript", "Node.js"],
-        github: "https://github.com/Daniel ch/project",
+        github: "https://github.com/DanPL3x/project",
         demo: "https://project-demo.vercel.app"
       }
       // Agrega más proyectos según sea necesario
@@ -177,18 +177,18 @@ const content = {
       ]
     },
     meta: {
-      title: "Daniel - Ingeniero en sistemas",
-      description: "Portfolio personal de Daniel, un ingeniero en sistemas especializado en tecnologías web modernas.",
-      keywords: ["ingeniero en sistemas", "desarrollo web", "portfolio", "react", "typescript"]
+      title: "Daniel Campo Chaguendo - 'Tecnologo en sistemas'",
+      description: "Portfolio personal de Daniel Campo Chaguendo, un 'tecnologo en sistemas' especializado en tecnologías web modernas.",
+      keywords: ["'tecnologo en sistemas'", "desarrollo web", "portfolio", "react", "typescript"]
     }
   }
 };
 
 export const portfolioConfig: PortfolioConfig = {
   personal: {
-    name: "Daniel",
-    title: "Ingeniero en sistemas",
-    subtitle: "Danielch",
+    name: "Daniel Campo Chaguendo",
+    title: "Tecnologo en sistemas",
+    subtitle: "Administración de Sistemas & Soporte IT",
     greeting: "Hello, I'm",
     profilePhoto: "/profile-photo.png",
     cvUrl: "/path-to-your-cv.pdf" // Optional - update this path
@@ -197,18 +197,18 @@ export const portfolioConfig: PortfolioConfig = {
   contact: {
     email: "dchcampo@gmail.com",
     phone: "3127589036",
-    location: "cali,colombia",
+    location: "Cali, Colombia",
     social: {
-      github: "https://github.com/Daniel ch",
+      github: "https://github.com/DanPL3x",
       linkedin: "https://linkedin.com/in/Daniel Campo Chaguendo",
-      twitter: "https://twitter.com/Daniel ch", // Optional - update if different
-      instagram: "https://instagram.com/Daniel ch" // Optional - update if different
+      twitter: "https://twitter.com/DanPL3x", // Optional - update if different
+      instagram: "https://instagram.com/DanPL3x" // Optional - update if different
     }
   },
 
   about: {
-    description: "",
-    experience: "",
+    description: "Me defino como un profesional impulsado por la curiosidad y la excelencia técnica. Mi enfoque se centra en el alto rendimiento y la mejora continua, destacándome tanto en la resolución analítica de problemas como en el desarrollo de código eficiente y estructurado.",
+    experience: "Cuento con 2 años de experiencia en el área de soporte IT, desempeñándome como administrador de sistemas en Spectra Ingeniería.",
     highlights: [
       {
         icon: "Code2",
@@ -239,7 +239,7 @@ export const portfolioConfig: PortfolioConfig = {
       description: "Describe your project here. What it does, what problems it solves, and what technologies you used.",
       image: "/project-image.jpg",
       technologies: ["React", "TypeScript", "Node.js"],
-      github: "https://github.com/Daniel ch/project",
+      github: "https://github.com/DanPL3x/project",
       demo: "https://project-demo.vercel.app"
     }
     // Add more projects as needed
@@ -290,9 +290,9 @@ export const portfolioConfig: PortfolioConfig = {
   },
 
   meta: {
-    title: "Daniel - Ingeniero en sistemas",
-    description: "Personal portfolio of Daniel, a ingeniero en sistemas specializing in modern web technologies.",
-    keywords: ["ingeniero en sistemas", "web development", "portfolio", "react", "typescript"]
+    title: "Daniel Campo Chaguendo - Tecnologo en sistemas",
+    description: "Personal portfolio of Daniel Campo Chaguendo, a tecnologo en sistemas specializing in modern web technologies.",
+    keywords: ["tecnologo en sistemas", "web development", "portfolio", "react", "typescript"]
   }
 };
 
