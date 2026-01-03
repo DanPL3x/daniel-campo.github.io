@@ -53,31 +53,31 @@ const content = {
         {
           title: "Frontend",
           skills: [
-            { name: "React", level: 95 },
-            { name: "TypeScript", level: 90 },
-            { name: "Next.js", level: 85 },
-            { name: "Tailwind CSS", level: 88 },
-            { name: "Vue.js", level: 75 }
+            { name: "React", level: 0 },
+            { name: "TypeScript", level: 0 },
+            { name: "Next.js", level: 0 },
+            { name: "Tailwind CSS", level: 0 },
+            { name: "Vue.js", level: 0 }
           ]
         },
         {
           title: "Backend",
           skills: [
-            { name: "Node.js", level: 88 },
-            { name: "Python", level: 82 },
-            { name: "PostgreSQL", level: 85 },
-            { name: "MongoDB", level: 80 },
-            { name: "GraphQL", level: 78 }
+            { name: "Node.js", level: 0 },
+            { name: "Python", level: 5 },
+            { name: "PostgreSQL", level: 15 },
+            { name: "MongoDB", level: 5 },
+            { name: "GraphQL", level: 0 }
           ]
         },
         {
           title: "Tools & Others",
           skills: [
-            { name: "AWS", level: 85 },
-            { name: "Docker", level: 82 },
-            { name: "Git", level: 92 },
-            { name: "Jest", level: 88 },
-            { name: "Figma", level: 75 }
+            { name: "AWS", level: 15 },
+            { name: "Docker", level: 5 },
+            { name: "Git", level: 15 },
+            { name: "Jest", level: 0 },
+            { name: "Figma", level: 0 }
           ]
         }
       ],
@@ -143,31 +143,31 @@ const content = {
         {
           title: "Frontend",
           skills: [
-            { name: "React", level: 95 },
-            { name: "TypeScript", level: 90 },
-            { name: "Next.js", level: 85 },
-            { name: "Tailwind CSS", level: 88 },
-            { name: "Vue.js", level: 75 }
+            { name: "React", level: 0 },
+            { name: "TypeScript", level: 0 },
+            { name: "Next.js", level: 0 },
+            { name: "Tailwind CSS", level: 0 },
+            { name: "Vue.js", level: 0 }
           ]
         },
         {
           title: "Backend",
           skills: [
-            { name: "Node.js", level: 88 },
-            { name: "Python", level: 82 },
-            { name: "PostgreSQL", level: 85 },
-            { name: "MongoDB", level: 80 },
-            { name: "GraphQL", level: 78 }
+            { name: "Node.js", level: 0 },
+            { name: "Python", level: 5 },
+            { name: "PostgreSQL", level: 15 },
+            { name: "MongoDB", level: 0 },
+            { name: "GraphQL", level: 0 }
           ]
         },
         {
           title: "Herramientas y Otros",
           skills: [
-            { name: "AWS", level: 85 },
-            { name: "Docker", level: 82 },
-            { name: "Git", level: 92 },
-            { name: "Jest", level: 88 },
-            { name: "Figma", level: 75 }
+            { name: "AWS", level: 5 },
+            { name: "Docker", level: 5 },
+            { name: "Git", level: 15 },
+            { name: "Jest", level: 0 },
+            { name: "Figma", level: 0 }
           ]
         }
       ],
@@ -200,7 +200,7 @@ export const portfolioConfig: PortfolioConfig = {
     location: "Cali, Colombia",
     social: {
       github: "https://github.com/DanPL3x",
-      linkedin: "https://linkedin.com/in/Daniel Campo Chaguendo",
+      linkedin: "https://linkedin.com/in/daniel-campo-chaguendo-a43bb02b4",
       twitter: "https://twitter.com/DanPL3x", // Optional - update if different
       instagram: "https://instagram.com/DanPL3x" // Optional - update if different
     }
@@ -250,31 +250,31 @@ export const portfolioConfig: PortfolioConfig = {
       {
         title: "Frontend",
         skills: [
-          { name: "React", level: 95 },
-          { name: "TypeScript", level: 90 },
-          { name: "Next.js", level: 85 },
-          { name: "Tailwind CSS", level: 88 },
-          { name: "Vue.js", level: 75 }
+          { name: "React", level: 0 },
+          { name: "TypeScript", level: 0 },
+          { name: "Next.js", level: 0 },
+          { name: "Tailwind CSS", level: 0 },
+          { name: "Vue.js", level: 0 }
         ]
       },
       {
         title: "Backend",
         skills: [
-          { name: "Node.js", level: 88 },
-          { name: "Python", level: 82 },
-          { name: "PostgreSQL", level: 85 },
-          { name: "MongoDB", level: 80 },
-          { name: "GraphQL", level: 78 }
+          { name: "Node.js", level: 5 },
+          { name: "Python", level: 5 },
+          { name: "PostgreSQL", level: 15 },
+          { name: "MongoDB", level: 5 },
+          { name: "GraphQL", level: 0 }
         ]
       },
       {
         title: "Tools & Others",
         skills: [
-          { name: "AWS", level: 85 },
-          { name: "Docker", level: 82 },
-          { name: "Git", level: 92 },
-          { name: "Jest", level: 88 },
-          { name: "Figma", level: 75 }
+          { name: "AWS", level: 5 },
+          { name: "Docker", level: 2 },
+          { name: "Git", level: 10 },
+          { name: "Jest", level: 0 },
+          { name: "Figma", level: 0 }
         ]
       }
     ],
